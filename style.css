@@ -1,0 +1,510 @@
+@import url('https://fonts.googleapis.com/css2?family=Baloo+Bhaijaan+2:wght@500;600&family=Fredoka+One&family=Inspiration&family=Lobster&family=Merriweather+Sans:ital,wght@1,800&family=Playball&family=Righteous&family=Roboto+Slab:wght@900&family=Rubik+Wet+Paint&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Baloo+Bhaijaan+2:wght@500;600&family=Dancing+Script:wght@700&family=Fredoka+One&family=Inspiration&family=Lobster&family=Merriweather+Sans:ital,wght@1,800&family=Playball&family=Righteous&family=Roboto+Slab:wght@900&family=Rubik+Wet+Paint&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Baloo+Bhaijaan+2:wght@500;600&family=Dancing+Script:wght@700&family=Fredoka+One&family=Inspiration&family=Lobster&family=Merriweather+Sans:ital,wght@1,800&family=Pacifico&family=Playball&family=Righteous&family=Roboto+Slab:wght@900&family=Rubik+Wet+Paint&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Baloo+Bhaijaan+2:wght@500;600&family=Dancing+Script:wght@700&family=Fredoka+One&family=Inspiration&family=Libre+Baskerville:wght@700&family=Lobster&family=Merriweather+Sans:ital,wght@1,800&family=Pacifico&family=Playball&family=Righteous&family=Roboto+Slab:wght@900&family=Rubik+Wet+Paint&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Baloo+Bhaijaan+2:wght@500;600&family=Dancing+Script:wght@700&family=Fredoka+One&family=Inspiration&family=Kanit:ital,wght@1,900&family=Libre+Baskerville:wght@700&family=Lobster&family=Merriweather+Sans:ital,wght@1,800&family=Pacifico&family=Playball&family=Righteous&family=Roboto+Slab:wght@900&family=Rubik+Wet+Paint&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Baloo+Bhaijaan+2:wght@500;600&family=Bebas+Neue&family=Dancing+Script:wght@700&family=Fredoka+One&family=Inspiration&family=Kanit:ital,wght@1,900&family=Libre+Baskerville:wght@700&family=Lobster&family=Merriweather+Sans:ital,wght@1,800&family=Pacifico&family=Playball&family=Righteous&family=Roboto+Slab:wght@900&family=Rubik+Wet+Paint&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Baloo+Bhaijaan+2:wght@500;600&family=Bebas+Neue&family=Dancing+Script:wght@700&family=Fredoka+One&family=Ingrid+Darling&family=Inspiration&family=Kanit:ital,wght@1,900&family=Libre+Baskerville:wght@700&family=Lobster&family=Merriweather+Sans:ital,wght@1,800&family=Pacifico&family=Playball&family=Righteous&family=Roboto+Slab:wght@900&family=Rubik+Wet+Paint&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Baloo+Bhaijaan+2:wght@500;600&family=Beau+Rivage&family=Bebas+Neue&family=Dancing+Script:wght@700&family=Fredoka+One&family=Ingrid+Darling&family=Inspiration&family=Kanit:ital,wght@1,900&family=Libre+Baskerville:wght@700&family=Lobster&family=Merriweather+Sans:ital,wght@1,800&family=Pacifico&family=Playball&family=Righteous&family=Roboto+Slab:wght@900&family=Rubik+Wet+Paint&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Baloo+Bhaijaan+2:wght@500;600&family=Beau+Rivage&family=Bebas+Neue&family=Dancing+Script:wght@700&family=Fredoka+One&family=Ingrid+Darling&family=Inspiration&family=Kanit:ital,wght@1,900&family=Libre+Baskerville:wght@700&family=Lobster&family=Merriweather+Sans:ital,wght@1,800&family=Merriweather:wght@900&family=Pacifico&family=Playball&family=Righteous&family=Roboto+Slab:wght@900&family=Rubik+Wet+Paint&family=Ubuntu:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Baloo+Bhaijaan+2:wght@500;600&family=Beau+Rivage&family=Bebas+Neue&family=Dancing+Script:wght@700&family=Fredoka+One&family=Ingrid+Darling&family=Inspiration&family=Kanit:ital,wght@1,900&family=Libre+Baskerville:wght@700&family=Lobster&family=Merriweather+Sans:ital,wght@1,800&family=Merriweather:wght@900&family=Pacifico&family=Playball&family=Righteous&family=Roboto+Slab:wght@900&family=Rubik+Wet+Paint&family=Satisfy&family=Ubuntu:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Baloo+Bhaijaan+2:wght@500;600&family=Beau+Rivage&family=Bebas+Neue&family=Dancing+Script:wght@700&family=Fredoka+One&family=Ingrid+Darling&family=Inspiration&family=Kanit:ital,wght@1,900&family=Libre+Baskerville:wght@700&family=Lobster&family=Merriweather+Sans:ital,wght@1,800&family=Merriweather:wght@900&family=Pacifico&family=Playball&family=Righteous&family=Roboto+Slab:wght@900&family=Rubik+Wet+Paint&family=Satisfy&family=Ubuntu:wght@700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: white;
+}
+
+#navbar {
+    display: flex;
+    justify-content: space-around;
+    position: sticky;
+    top: 0px;
+    background-color: white;
+}
+
+#navbar .left {
+    display: flex;
+    list-style: none;
+}
+
+#navbar .right {
+    display: flex;
+    list-style: none;
+}
+
+#navbar .center {
+    font-family: 'Dancing Script', cursive;
+    font-size: 21px;
+}
+
+#navbar a {
+    color: black;
+    text-decoration: none;
+    font-size: 21px;
+}
+
+.navbtnfile {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 17vh;
+    border-radius: 8px;
+}
+
+.navbtn {
+    margin-right: 48px;
+    background-color: #5f5f5f;
+    padding: 6px;
+    border-color: white;
+    font-family: 'Righteous', cursive;
+}
+
+.navbtn:hover {
+    background-color: white;
+    background-color: #000000;
+    font-family: 'Righteous', cursive;
+}
+
+.navbtn a:hover {
+    font-family: 'Baloo Bhaijaan 2', cursive;
+    font-family: 'Righteous', cursive;
+}
+
+.navbtn a {
+    color: white;
+    text-decoration: none;
+    font-size: 23px;
+}
+
+#navbar li {
+    padding: 11px;
+    /* font-family: 'Roboto Slab', serif;
+    font-family: 'Pacifico', cursive;
+    font-family: 'Dancing Script', cursive;
+    font-family: 'Fredoka One', cursive;
+    font-family: 'Inspiration', cursive;
+    font-family: 'Lobster', cursive;
+    font-family: 'Merriweather Sans', sans-serif;
+    font-family: 'Playball', cursive;
+    font-family: 'Roboto Slab', serif;
+    /* font-family: 'Righteous', cursive; */
+    font-family: 'Rubik Wet Paint', cursive;
+}
+
+ul {
+    display: flex;
+    list-style: none;
+}
+
+.headerOne {
+    background-image: url("https://image-cdn.hypb.st/https%3A%2F%2Fhypebeast.com%2Fwp-content%2Fblogs.dir%2F6%2Ffiles%2F2021%2F12%2Fstussy-nike-air-force-1-af1-mid-collaboration-white-black-release-info-0.jpg?fit=max&cbr=1&q=90&w=750&h=500");
+    background-repeat: no-repeat;
+    background-size: 100vw 100vh;
+    background-size: cover;
+    background-position: center;
+    height: 94vh;
+    width: 100vw;
+}
+
+.headerOne h1 {
+    color: #ebb671;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 38vh;
+    font-size: 60px;
+}
+
+.headerOne h4 {
+    color: white;
+    color: #a2a08f;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.headingheaderTwo a {
+    color: black;
+    text-decoration: none;
+    font-size: 21px;
+}
+
+.headerTwoFirstMain {
+    /* border: 2px solid red; */
+    position: relative;
+    box-shadow: 10px 10px 48px #c9dadc;
+}
+
+.headerTwoFirstbtnfile a {
+    color: black;
+    text-decoration: none;
+}
+
+.headerTwoFirstbtn {
+    display: block;
+    border: 2px solid white;
+    width: 16vw;
+    border-radius: 10px;
+    height: 5vh;
+    font-family: 'Righteous', cursive;
+    font-size: 24px;
+    margin-bottom: 14px;
+}
+
+.headerTwoFirstbtnfile {
+    position: absolute;
+    top: 156px;
+    left: 119px;
+    display: block;
+    transition: all 0.2s;
+    opacity: 0;
+}
+
+.headerTwoFirstbtnfile:hover {
+    opacity: 1;
+}
+
+.headerTwoSecondMain {
+    position: relative;
+    /* width: 445px; */
+    /* border: 2px solid red; */
+    box-shadow: 10px 10px 48px #c9dadc;
+}
+
+.headerTwoSecondbtnfile a {
+    color: black;
+    text-decoration: none;
+}
+
+.headerTwoSecondbtn {
+    display: block;
+    border: 2px solid white;
+    width: 16vw;
+    border-radius: 10px;
+    height: 5vh;
+    font-family: 'Righteous', cursive;
+    font-size: 24px;
+    margin-bottom: 14px;
+    cursor: pointer;
+}
+
+.headerTwoSecondbtnfile {
+    position: absolute;
+    top: 156px;
+    left: 119px;
+    display: block;
+    transition: all 0.2s;
+    opacity: 0;
+    cursor: pointer;
+}
+
+.headerTwoSecondbtnfile:hover {
+    opacity: 1;
+    cursor: pointer;
+}
+
+.headerTwoThirdMain {
+    position: relative;
+    /* width: 445px; */
+    /* border: 2px solid red; */
+    box-shadow: 10px 10px 48px #c9dadc;
+}
+
+.headerTwoThirdbtnfile a {
+    color: black;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.headerTwoThirdbtn {
+    display: block;
+    border: 2px solid white;
+    width: 16vw;
+    border-radius: 10px;
+    height: 5vh;
+    font-family: 'Righteous', cursive;
+    font-size: 24px;
+    margin-bottom: 14px;
+}
+
+.headerTwoThirdbtnfile {
+    position: absolute;
+    top: 156px;
+    left: 119px;
+    display: block;
+    transition: all 0.2s;
+    opacity: 0;
+    cursor: pointer;
+}
+
+.headerTwoThirdbtnfile:hover {
+    opacity: 1;
+    cursor: pointer;
+}
+
+.EVERYDAY {
+    font-family: 'Inspiration', cursive;
+    font-family: 'Roboto Slab', serif;
+    font-family: 'Roboto Slab', serif;
+    font-family: 'Playball', cursive;
+    font-family: 'Dancing Script', cursive;
+    font-family: 'Merriweather Sans', sans-serif;
+    font-family: 'Lobster', cursive;
+    font-family: 'Inspiration', cursive;
+    font-family: 'Righteous', cursive;
+    font-family: 'Fredoka One', cursive;
+    font-family: 'Pacifico', cursive;
+}
+
+.EVERYDAY p {
+    padding-bottom: 8px;
+}
+
+hr {
+    width: 79vw;
+    /* margin-top: -5vh; */
+    margin-bottom: 3vh;
+    margin-left: 11vw;
+}
+
+.EVERYDAY hr {
+    width: 25vw;
+    margin-left: 2vw;
+    margin-bottom: 12px;
+    margin-top: 6px;
+}
+
+.headerTwo {
+    height: 100vh;
+}
+
+.headerTwo h2 {
+    font-size: 45px;
+    text-align: center;
+    margin: 35px;
+    font-family: 'Libre Baskerville', serif;
+    font-family: 'Kanit', sans-serif;
+
+}
+
+.EVERYDAY {
+    text-align: center;
+    /* display: grid; */
+    display: flex;
+    /* padding-left: 2vw; */
+    /* padding-right: 2vw; */
+    /* grid-template-columns: repeat(3, auto); */
+    /* grid-column-gap: 20px; */
+    justify-content: space-around;
+}
+
+.headingheaderTwo {
+    display: flex;
+    font-size: 19px;
+    margin: 16px;
+    justify-content: space-around;
+}
+
+.headerFour {
+    height: 40vh;
+    width: 100vw;
+    text-align: center;
+    padding-top: 7vh;
+    font-size: 27px;
+}
+
+.headerFour h1 {
+    margin-bottom: 4vh;
+}
+
+.headerFour h4 {
+    margin-bottom: 6vh;
+}
+
+.headerFourbtn {
+    background-color: black;
+    color: white;
+    width: 25vw;
+    font-size: 20px;
+    height: 5vh;
+    line-height: 1.89;
+    cursor: pointer;
+    font-family: 'Libre Baskerville', serif;
+}
+
+.headerFourbtn:hover {
+    background-color: white;
+    line-height: 1.89;
+    color: black;
+    border-color: black;
+    width: 25vw;
+    font-size: 20px;
+    height: 6vh;
+    cursor: pointer;
+    font-family: 'Libre Baskerville', serif;
+}
+
+.headerFour {
+    width: 100vw;
+}
+
+.headerThree {
+    width: 100vw;
+    height: 95vh;
+}
+
+.headerThree img {
+    width: 100vw;
+}
+
+.headerFive {
+    width: 100vw;
+    height: 90vh;
+}
+
+.headerFiveCards {
+    display: flex;
+    /* padding-left: 1.7vw; */
+    /* padding-right: 3vw; */
+    /* grid-template-columns: repeat(3, 350px); */
+    /* grid-gap: 57px; */
+    /* grid-column-gap: 2vw; */
+    justify-content: space-around;
+    width: 100vw;
+    text-align: center;
+}
+
+.headerFiveCardsFirst img {
+    height: 320px;
+    width: 390px;
+    display: block;
+    transition: all;
+}
+
+.headerFiveCardsFirst img:hover{
+    width: 394px;
+}
+
+.headerFiveCardsFirst {
+    /* border: 2px solid red; */
+    font-family: 'Beau Rivage', cursive;
+    display: block;
+    box-shadow: 10px 10px 48px #c9dadc;
+}
+
+.headerFiveCardsSecond {
+    /* border: 2px solid red; */
+    font-family: 'Pacifico', cursive;
+    font-family: 'Beau Rivage', cursive;
+    display: block;
+    box-shadow: 10px 10px 48px #c9dadc;
+}
+
+.headerFiveCardsThird {
+    /* border: 2px solid red; */
+    font-family: 'Pacifico', cursive;
+    font-family: 'Beau Rivage', cursive;
+    display: block;
+    box-shadow: 10px 10px 48px #c9dadc;
+}
+
+.headerFiveCardsSecond img {
+    height: 320px;
+    width: 390px;
+    display: block;
+    transition: all ;
+}
+
+.headerFiveCardsSecond img:hover {
+    /* height: 322px; */
+    width: 394px;
+    /* animation: headerFiveCardsDecond 0s ease-in 1; */
+}
+
+@keyframes headerFiveCardsSecond{
+    from{
+        width: 0px;
+        height: 0px;
+    }
+    to{
+        width: 352px;
+        height: 392px;
+    }
+}
+
+.headerFiveCardsThird img {
+    height: 320px;
+    width: 390px;
+    display: block;
+    box-sizing: border-box;
+    transition: all 0.2s;
+}
+.headerFiveCardsThird img:hover{
+    width: 394px;
+}
+
+.headerFive p {
+    padding-bottom: 13px;
+    font-family: 'Pacifico', cursive;
+}
+
+.headerFive hr {
+    width: 20vw;
+    margin-left: 2vw;
+    margin-bottom: 12px;
+    margin-top: 6px;
+}
+
+.headerFive h1 {
+    padding-top: 9px;
+}
+
+.headerSix {
+    height: 80vh;
+    width: 100vw;
+    text-align: center;
+}
+
+.headerSix img {
+    width: 100vw;
+    height: 70vh;
+}
+
+.headerSeven {
+    text-align: center;
+    font-size: 25px;
+    height: 40vh;
+}
+
+.headerSeven h1 {
+    font-family: 'Ubuntu', sans-serif;
+    padding-bottom: 20px;
+}
+
+.headerSeven p {
+    padding-bottom: 30px;
+    font-family: 'Satisfy', cursive;
+}
+
+.headerSevenbtn {
+    width: 206px;
+    font-size: 21px;
+    height: 40px;
+    margin: 15px;
+    background-color: #527779;
+    color: white;
+    font-family: 'Righteous', cursive;
+    cursor: pointer;
+}
+
+.headerSevenbtn:hover {
+    background-color: white;
+    color: black;
+    cursor:pointer;
+    border: 1px solid black;
+}
